@@ -27,6 +27,14 @@
 .tm-home-title {
     color: #FFFFFF;    
 }
+
+#home .links {
+    margin-top: 10px;
+}
+
+#home .btnLinkIcon {
+    width: 52px;
+}
 /* ENDS /home */
 
 /* STARTS /about */
@@ -71,6 +79,11 @@
 .contactDetails .links {
     margin: 4vw auto;
 }
+
+.contactDetails .links .btnLinkIcon{
+    width: 74px;
+}
+    
 /* ENDS /contact */
 
 /* STARTS ICONS */
@@ -81,11 +94,17 @@
     line-height: 1.25;
 }
 
-.tm-contact .links i {
+.links i {
     color: var(--primary-color);
-    font-size: 48px;
-    padding: 0.5vw 1vw;
     line-height: 1;
+}
+
+#home .links i {
+    font-size: 32px;
+}
+
+.tm-contact .links i {
+    font-size: 48px;    
 }
 /* ENDS ICONS */
 
@@ -122,7 +141,6 @@
 
 .btnLinkIcon {
     display: inline-block;
-    width: 74px;
     line-height: 1;
     padding: 10px 0;
     border-radius: 50%;

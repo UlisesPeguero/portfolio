@@ -2,8 +2,13 @@
     .title {
         text-align: center !important;
     }
+
+    .tm-about i {
+        font-size: 4rem;
+    }
 }
 
+/* STARTS /home */
 #home {
     position: relative;
 }
@@ -22,7 +27,9 @@
 .tm-home-title {
     color: #FFFFFF;
 }
+/* ENDS /home */
 
+/* STARTS /contact */
 .tm-contact-title {
     text-align: right;
 }
@@ -31,3 +38,12 @@
 .tm-about p {
     text-align: justify;
 }
+/* ENDS /contact */
+
+/* STARTS ICONS */
+.tm-about i {
+    font-size: 64px;
+    padding: 1vw 2vw;
+    line-height: 1.25;
+}
+/* ENDS ICONS */

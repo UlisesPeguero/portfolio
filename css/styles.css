@@ -4,8 +4,12 @@
     }
 
     .tm-about i {
-        font-size: 4rem;
+        font-size: 14vw !important;
     }
+}
+
+body {
+   
 }
 
 /* STARTS /home */
@@ -42,8 +46,15 @@
 
 /* STARTS ICONS */
 .tm-about i {
+    color: var(--primary-color);
     font-size: 64px;
     padding: 1vw 2vw;
     line-height: 1.25;
 }
 /* ENDS ICONS */
+
+/* STARTS GENERAL */
+.title > h2 {
+    margin-top: 10px;
+}
+/* ENDS GENERAL */

@@ -12,6 +12,7 @@ body {
   font-size: 16px;
   color: #606060;
   position: relative;
+  --primary-color: #655E7A;
 }
 html, body {
   width: 100%;
@@ -126,34 +127,6 @@ hr {
   color: #655E7A;
 }
 /* END HOME */
-
-/* START WORK */
-.tm-padding-top-bottom-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.tm-work-h3 {
-  color: #655E7A;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  padding-bottom: 10px;
-}
-.work-wrapper {
-  border: 1px solid #666;
-  border-radius: 2px;
-  text-align: center;
-  padding: 80px 40px 80px 40px;
-  -webkit-transition: all 0.6s ease-in;
-          transition: all 0.6s ease-in;
-}
-.work-wrapper:hover { border-color: #655E7A; }
-.work-wrapper .fa {
-  color: #888888;
-  font-size: 60px;
-  padding-bottom: 40px;
-}
-/* END WORK */
 
 /* START PORTFOLIO */
 .tm-portfolio {
@@ -327,8 +300,8 @@ hr {
 }
 .form-control:focus,
  .form-control:hover {
-  background: #202020;
-  color: #ffffff;
+  background: #655e7a4b;
+  /*color: #ffffff;*/
 }
 input { height: 50px; }
 /*.tm-contact p { padding-top: 40px; }*/

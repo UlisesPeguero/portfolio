@@ -11,7 +11,8 @@
 	<!-- STYLESHEETS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!--link rel="stylesheet" href="css/fontawesome.min.css"-->
 	<link rel="stylesheet" href="css/templatemo-style.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -57,7 +58,7 @@ https://templatemo.com/tm-464-ultra-profile
 					<h1 class="tm-home-title"><strong>Ulises Fox Peguero</strong></h1>
 					<h2 class="tm-home-subtitle">Software Developer</h2>
 					<p>I am a professional <strong>Full-Stack Developer</strong> creating modern and responsive applications for <strong>Web</strong>.</p>
-					<a href="#portfolio" class="btn btn-default smoothScroll tm-view-more-btn">Portfolio</a>
+					<a id="btnPortfolio" href="#portfolio" class="btn btn-default smoothScroll tm-view-more-btn">Portfolio</a>
 				</div>
 				<div class="col-md-2 col-sm-1"></div>
 			</div>
@@ -77,11 +78,11 @@ https://templatemo.com/tm-464-ultra-profile
 					<!-- START ISO SECTION -->
 					<div class="iso-section">
 						<ul class="filter-wrapper clearfix">
-							<li><a href="#" class="opc-main-bg selected" data-filter="*">All</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".frontEnd">Front-end</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".backEnd">Back-end</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".lorem">Lorem</a></li>
-							<li><a href="#" class="opc-main-bg" data-filter=".ipsum">Ipsum</a></li>
+							<li><a href="#" class="opc-main-bg selected btnPurple" data-filter="*">All</a></li>
+							<li><a href="#" class="opc-main-bg btnPurple" data-filter=".frontEnd">Front-end</a></li>
+							<li><a href="#" class="opc-main-bg btnPurple" data-filter=".backEnd">Back-end</a></li>
+							<li><a href="#" class="opc-main-bg btnPurple" data-filter=".lorem">Lorem</a></li>
+							<li><a href="#" class="opc-main-bg btnPurple" data-filter=".ipsum">Ipsum</a></li>
 						</ul>
 						<div class="iso-box-section">
 							<div class="iso-box-wrapper col4-iso-box">
@@ -205,9 +206,27 @@ https://templatemo.com/tm-464-ultra-profile
 						<h2>CONTACT <strong>DETAILS</strong></h2>						
 					</div>
 					<p>Amet mattis vulputate enim nulla aliquet. Vel fringilla est ullamcorper eget nulla facilisi etiam.</p>					
-					<div class="contactDetail">
-						<i class="fas fa-map-marker-alt"></i>
-						<div class="detail">Kansas City, MO 64000</div>
+					<div class="contactDetails container">
+						<div class="row detail">
+							<i class="fa fa-map-marker col-sm-1 text-center"></i>
+							<div class="col">Kansas City, MO 64000</div>
+						</div>
+						<div class="row detail">
+							<i class="fa fa-phone col-sm-1 text-center"></i>
+							<div class="col">(816) 000-0000</div>
+						</div>
+						<div class="row detail">
+							<i class="fa fa-at col-sm-1 text-center"></i>
+							<div class="detail col">peguero.ulises@gmail.com</div>
+						</div>
+						<div class="row col-sm-7 text-center links">
+							<a class="btnLinkIcon" href="https://github.com/UlisesPeguero?tab=repositories" target="_blank" rel="noopener noreferrer">
+								<i class="devicon-github-plain"></i>
+							</a>
+							<a class="btnLinkIcon" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+								<i class="devicon-linkedin-plain"></i>																					
+							</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-5 col-sm-5 contactForm">
@@ -224,7 +243,7 @@ https://templatemo.com/tm-464-ultra-profile
 						<div class="form-group">
 							<textarea class="form-control" id="contactFormMessage" rows="5" required placeholder="Message"></textarea>
 						</div>
-						<button id="btnSubmitMessage" type="submit" class="btn btn-primary btn-lg btn-block">SEND</button>
+						<button id="btnSubmitMessage" type="submit" class="btn btn-default btn-lg btn-block btnPurple">SEND</button>
 					</Form>					
 				</div>								
 			</div>

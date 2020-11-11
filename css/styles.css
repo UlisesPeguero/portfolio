@@ -62,6 +62,15 @@
 #btnSubmitMessage:focus {
     background-color: var(--primary-color);
 }
+
+.contactDetails div.detail > * {
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.contactDetails .links {
+    margin: 4vw auto;
+}
 /* ENDS /contact */
 
 /* STARTS ICONS */
@@ -71,10 +80,64 @@
     padding: 1vw 2vw;
     line-height: 1.25;
 }
+
+.tm-contact .links i {
+    color: var(--primary-color);
+    font-size: 48px;
+    padding: 0.5vw 1vw;
+    line-height: 1;
+}
 /* ENDS ICONS */
 
 /* STARTS GENERAL */
 .title > h2 {
     margin-top: 10px;
+}
+
+#btnSubmitMessage {
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+#btnSubmitMessage,
+.btnPurple:hover {
+    background: linear-gradient(#655E7AD1, var(--primary-color)), 
+                linear-gradient(to bottom, #01010100, #010101);
+    border: transparent;
+    color: #FFFFFF;
+}
+
+.btnPurple:active,
+#btnPortfolio:active, 
+#btnSubmitMessage:active {
+    background: linear-gradient(#655E7AD1, var(--primary-color)), 
+                linear-gradient(to top, #01010100, #010101);  
+    color: #EEEEEE;  
+}
+
+#btnSubmitMessage:hover,
+#btnSubmitMessage:focus {
+    background-color: var(--primary-color);
+}
+
+.btnLinkIcon {
+    display: inline-block;
+    width: 74px;
+    line-height: 1;
+    padding: 10px 0;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    border: solid 1px var(--primary-color);
+}
+
+.btnLinkIcon:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+.btnLinkIcon:hover i {
+    color: #FFFFFF;
 }
 /* ENDS GENERAL */

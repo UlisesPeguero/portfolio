@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 
 	    //filter items on button click
 
-	    $('.filter-wrapper li a').click(function(){
+	    $('.filter-wrapper li a').click(function(event){
 
 	        var $this = $(this), filterValue = $this.attr('data-filter');
 
@@ -49,7 +49,8 @@ jQuery(document).ready(function($){
 			filter_wrapper.find('.selected').removeClass('selected');
 			$this.addClass('selected');
 
-	      return false;
+			event.preventDefault();
+	      	return true;
 	    }); 
 
 	}

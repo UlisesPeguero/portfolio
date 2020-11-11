@@ -133,7 +133,7 @@ hr {
 /* START PORTFOLIO */
 .tm-portfolio {
   background: #f8f8f8;
-  padding-top: 10vw;
+  padding-top: 8vw;
   margin-bottom: 5vw;
 }
 .tm-portfolio .container {
@@ -275,19 +275,17 @@ hr {
 
 /* START ABOUT */
 .tm-about {
- /* background: url('../images/about-bg.jpg');*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  padding-top: 10vw;
+  padding-top: 8vw;
   margin-bottom: 5vw;
 }
 /* END ABOUT */
 
 /* START CONTACT */
 .tm-contact {
-  /*text-align: right;*/
-  padding-top: 10vw;
+  padding-top: 8vw;
   margin-bottom: 5vw;
 }
 .form-control {

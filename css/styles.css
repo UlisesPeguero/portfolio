@@ -8,10 +8,6 @@
     }
 }
 
-body {
-   
-}
-
 /* STARTS /home */
 #home {
     position: relative;
@@ -29,18 +25,42 @@ body {
 }
 
 .tm-home-title {
-    color: #FFFFFF;
+    color: #FFFFFF;    
 }
 /* ENDS /home */
+
+/* STARTS /about */
+.tm-about .title {
+    padding-bottom: 20px;;
+}
+/* ENDS /about */
+
 
 /* STARTS /contact */
 .tm-contact-title {
     text-align: right;
+    padding-bottom: 20px;
 }
 
 .tm-contact p,
 .tm-about p {
     text-align: justify;
+}
+
+#btnSubmitMessage {
+    background: linear-gradient(#655E7AD1, var(--primary-color)), 
+                linear-gradient(to bottom, #01010100, #010101);
+    border: transparent;
+}
+
+#btnSubmitMessage:active {
+    background: linear-gradient(#655E7AD1, var(--primary-color)), 
+                linear-gradient(to top, #01010100, #010101);    
+}
+
+#btnSubmitMessage:hover,
+#btnSubmitMessage:focus {
+    background-color: var(--primary-color);
 }
 /* ENDS /contact */
 

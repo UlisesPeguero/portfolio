@@ -330,7 +330,7 @@ hr {
   background-attachment: fixed;
   background-position: center center;
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 /* END ABOUT */
 
@@ -384,8 +384,8 @@ hr {
 
 /* START CONTACT */
 .tm-contact {
-  text-align: center;
-  padding-top: 80px;
+  /*text-align: right;*/
+  padding-top: 0px;
   padding-bottom: 40px;
 }
 .form-control {
@@ -404,7 +404,7 @@ hr {
   color: #ffffff;
 }
 input { height: 50px; }
-.tm-contact p { padding-top: 40px; }
+/*.tm-contact p { padding-top: 40px; }*/
 /* END CONTACT */
 
 @media screen and (max-device-width: 1024px){

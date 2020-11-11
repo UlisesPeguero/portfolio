@@ -54,9 +54,6 @@ jQuery(document).ready(function($){
 
 	}
 
-	// navigation option shake
-	$('.nav ')
-
 });
 
 

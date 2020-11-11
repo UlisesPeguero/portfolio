@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) { 
     .title {
-        text-align: center;
+        text-align: center !important;
     }
 }
 
@@ -21,4 +21,13 @@
 
 .tm-home-title {
     color: #FFFFFF;
+}
+
+.tm-contact-title {
+    text-align: right;
+}
+
+.tm-contact p,
+.tm-about p {
+    text-align: justify;
 }

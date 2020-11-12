@@ -1,9 +1,8 @@
-
-
 // ISOTOPE FILTER
 
 jQuery(document).ready(function($){
 
+	
 	if ( $('.iso-box-wrapper').length > 0 ) { 
 
 	    var $container 	= $('.iso-box-wrapper'), 
@@ -20,7 +19,7 @@ jQuery(document).ready(function($){
 
 	    	$imgs.load(function(){
 	    		$container.isotope('reLayout');
-	    	})
+	    	});
 
 	    });
 
@@ -49,8 +48,8 @@ jQuery(document).ready(function($){
 			filter_wrapper.find('.selected').removeClass('selected');
 			$this.addClass('selected');
 
-			event.preventDefault();
-	      	return true;
+			event.preventDefault(); // added preventDefault to return true when it works without reloading the page
+	      	return true; // changed to true, was always returning false
 	    }); 
 
 	}

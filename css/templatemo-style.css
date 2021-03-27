@@ -82,7 +82,7 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/home-bg.jpg');
+  background: url('./../images/home-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -165,13 +165,30 @@ hr {
   position: absolute;
   bottom: 0;
   right: 0;
-  display: flex;
-  flex-direction: column;
 }
 
-.portfolio-buttons-container > a > i {
-  color: white !important;
+.portfolio-buttons-container a {
+  color: white;
+  border: 1px solid #DDD;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
 
+.portfolio-buttons-container a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color:#866ece;
+  box-shadow: 0 0 4px 4px #00000055;
+  opacity: 1;
+}
+
+.portfolio-buttons-container > a > i.fa {
+  color: white !important;
+  border: none;
+  margin: 4px;
+  width: auto;
 }
 
 .portfolio-overlay {

@@ -160,6 +160,20 @@ hr {
   margin: 0;
   position: relative;
 }
+
+.portfolio-buttons-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-buttons-container > a > i {
+  color: white !important;
+
+}
+
 .portfolio-overlay {
   display: -webkit-box;
   display: -webkit-flex;

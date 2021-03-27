@@ -63,7 +63,7 @@ jQuery(document).ready(function($){
 // MAIN NAVIGATION
 
  $('.main-navigation').onePageNav({
-        //scrollThreshold: 0.8, // Adjust if Navigation highlights too early or too late
+       // scrollThreshold: 0.5, // Adjust if Navigation highlights too early or too late
         scrollOffset: 75, //Height of Navigation Bar
         filter: ':not(.external)',
         changeHash: true
